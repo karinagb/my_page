@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+body img {
+  width: 400px;
+}
+
+.name{
+  font-family: 'Amatic SC';
+  font-size: 45px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0em;
+	text-align: center;
+  color: whitesmoke;
+  padding: 20px 0 20px;
+}
+
+button {
+	font-family: "Nunito";
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: whitesmoke;
+
+	background-color: #a92cda;
+	border-color: transparent;
+	border-radius: 10px;
+  
+  padding: 10px;
+  margin:5px;
+}

@@ -1,0 +1,385 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #a92cda;
+  margin: 0;
+  padding: 0 30px;
+
+}
+
+header h1 {
+  font-family: 'Amatic SC';
+  font-size: 50px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0em;
+	text-align: center;
+  color: whitesmoke;
+  padding: 30px;
+  margin: 0;
+
+}
+
+header h2 {
+  margin: 0;
+  padding: 0;
+  color:  #a92cda;
+}
+
+
+main {
+  margin: 50px 0;
+  padding: 0 100px;
+}
+
+
+
+#about_me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+  padding: 0;
+  margin: 20px 50px;
+}
+
+
+.photo img {
+  width: 200px;
+  border-radius: 0px;
+
+  padding: 0 40px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text h2 {
+  font-family: 'Nunito';
+  font-size: 30px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+  color: whitesmoke;
+
+  margin: 0;
+  padding: 20px 40px;
+}
+
+.text p {
+  font-family: 'Nunito';
+  font-size: 15px;
+	font-weight: 700;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: rgb(190, 190, 190);
+
+  margin: 0;
+  padding: 20px 40px;
+}
+
+#studies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-star;
+  padding: 10px 50px;
+  margin: 20px 0;
+}
+
+#studies h2 {
+  font-family: 'Amatic SC';
+  font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0em;
+	align-self: start;
+  color: #a92cda;
+  margin: 0;
+  padding: 0;
+}
+
+
+.web {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+.web h3 {
+  font-family: 'Nunito';
+  font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: whitesmoke;
+
+  margin: 0;
+  padding: 10px;
+}
+
+
+.web_studies_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ 
+  
+  margin: 10px 50px;
+
+}
+
+.web_studies_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  
+}
+
+.web_studies_item img{
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.web_studies_item p {
+  font-family: 'Nunito';
+  font-size: 15px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: rgb(190, 190, 190);
+  margin: 0;
+  padding: 10px;
+}
+
+
+
+.biology {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+
+.biology h3 {
+  font-family: 'Nunito';
+  font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: whitesmoke;
+
+  margin: 0;
+  padding: 10px;
+}
+
+.biology h4 {
+  font-family: 'Nunito';
+  font-size: 15px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+  color:  whitesmoke;
+
+  margin: 0;
+  padding: 10px 50px;
+}
+
+.biology p {
+  font-family: 'Nunito';
+  font-size: 15px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: rgb(190, 190, 190);
+
+  margin: 0;
+  padding: 10px 50px;
+}
+
+
+#experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-star;
+  padding: 10px 50px;
+}
+
+#experience h2 {
+  font-family: 'Amatic SC';
+  font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0em;
+	align-self: start;
+  color: #a92cda;
+  margin: 0;
+  padding: 0;
+}
+
+
+.assistant {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+.assistant h3 {
+  font-family: 'Nunito';
+  font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: whitesmoke;
+
+  margin: 0;
+  padding: 10px;
+}
+
+
+.assistant p {
+  font-family: 'Nunito';
+  font-size: 15px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: rgb(190, 190, 190);
+
+  margin: 0;
+  padding: 10px 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+
+.content h3 {
+  font-family: 'Nunito';
+  font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: whitesmoke;
+
+  margin: 0;
+  padding: 10px;
+}
+
+.content p {
+  font-family: 'Nunito';
+  font-size: 15px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: rgb(190, 190, 190);
+
+  margin: 0;
+  padding: 10px 50px;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-star;
+  padding: 10px 50px;
+}
+
+#skills h2 {
+  font-family: 'Amatic SC';
+  font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0em;
+	align-self: start;
+  color: #a92cda;
+  margin: 0;
+  padding: 0;
+}
+
+.skills_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  margin: 10px 50px;
+
+  width: 700px;
+
+}
+
+.skills_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  
+}
+
+.skills_item img{
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.skills_item p {
+  font-family: 'Nunito';
+  font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+  color: whitesmoke;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+@media (min-width: 1440px) { 
+
+  main {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin:50px 200px;
+  }
+
+
+}

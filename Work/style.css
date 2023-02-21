@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #a92cda;
+  margin: 0;
+  padding: 0 30px;
+
+}
+
+header h1 {
+  font-family: 'Amatic SC';
+  font-size: 50px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0em;
+	text-align: center;
+  color: whitesmoke;
+  padding: 30px;
+  margin: 0;
+
+}
+
+header h2 {
+  margin: 0;
+  padding: 0;
+  color:  #a92cda;
+}
+
+
+main {
+  margin: 50px 0;
+  padding: 0 100px;
+}
