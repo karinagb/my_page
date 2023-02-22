@@ -4,11 +4,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 150px 0;
+  margin: 100px auto;
 }
 
 body img {
-  width: 400px;
+  width: 350px;
 }
 
 .name{
@@ -25,22 +25,47 @@ body img {
 .buttons {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	padding: 0;
 }
 
 button {
 	font-family: "Nunito";
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
-	line-height: 20px;
+	line-height: 25px;
 	letter-spacing: 0em;
 	text-align: center;
 	color: whitesmoke;
 
 	background-color: #a92cda;
 	border-color: transparent;
-	border-radius: 10px;
+	border-radius: 15px;
   
   padding: 10px;
-  margin:5px;
+  margin: 5px;
 }
 
+button:hover {
+  background-color:  #d674fd;
+}
+
+.social_icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 25px;
+}
+
+.social_icons img {
+	width: 40px;
+
+	margin: 0;
+	padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+	body img {
+  width: 400px;
+}}

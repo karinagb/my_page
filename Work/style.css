@@ -31,11 +31,16 @@ header h1 {
 }
 
 header h2 {
+  font-family: "Nunito";
+  font-size: 24px;
   margin: 0;
   padding: 0;
   color:  #a92cda;
   border: none;
-  
+}
+
+header h2:hover {
+  color:#d674fd;
 }
 
 header button {
@@ -47,6 +52,7 @@ header button {
 }
 
 
+
 main {
   display: flex;
   flex-direction: column;
@@ -54,27 +60,35 @@ main {
   justify-content: center;
 
 
-  margin: 50px 0;
-  padding: 0 50px;
+  margin: 100px 0;
+  padding: 0;
 }
 
 .work_item {
-  padding: 20px;
+  padding: 15px;
 }
 
-button {
+.work_item button {
 	font-family: "Nunito";
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
-	line-height: 20px;
+	line-height: 25px;
 	letter-spacing: 0em;
 	text-align: center;
 	color: whitesmoke;
 
 	background-color: #a92cda;
 	border-color: transparent;
-	border-radius: 10px;
+	border-radius: 15px;
   
   padding: 10px;
   margin:5px;
+}
+
+.work_item button:hover {
+  font-size: 25px;
+	line-height: 30px;
+
+  background-color:  #d674fd;
+  padding: 15px;
 }

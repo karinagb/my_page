@@ -5,6 +5,7 @@ body {
 	margin: 0;
 }
 
+
 header {
 	display: flex;
 	flex-direction: row;
@@ -29,11 +30,16 @@ header h1 {
 }
 
 header h2 {
+	font-family: "Nunito";
   font-size: 24px;
 	margin: 0;
 	padding: 0;
 	color: #a92cda;
   
+}
+
+header h2:hover {
+  color:#d674fd;
 }
 
 header button {
@@ -602,6 +608,7 @@ footer h2 {
     padding: 20px 0;
   }
   
+	
   .web_studies_list {
     display: flex;
     flex-direction: row;
