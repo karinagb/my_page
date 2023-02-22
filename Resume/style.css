@@ -11,9 +11,9 @@ header {
 	align-items: center;
 	justify-content: space-between;
 
-	border-bottom: 1px solid #a92cda;
-	margin: 0 30px;
-	padding: 0 ;
+  border-bottom: 1px solid #a92cda;
+	margin: 0  30px;
+	padding: 0;
 }
 
 header h1 {
@@ -23,16 +23,17 @@ header h1 {
 	line-height: 50px;
 	letter-spacing: 0em;
 	text-align: center;
-	color: whitesmoke;
-	padding: 30px;
+	color: white;
+	padding: 30px 0;
 	margin: 0;
 }
 
 header h2 {
+  font-size: 24px;
 	margin: 0;
 	padding: 0;
 	color: #a92cda;
-	border: none;
+  
 }
 
 header button {
@@ -41,10 +42,6 @@ header button {
 	color: #a92cda;
 	border: none;
 	background-color: transparent;
-}
-
-header img {
-	width: 30px;
 }
 
 main {
@@ -71,7 +68,7 @@ main {
 	color: #a92cda;
 
 	margin: 0;
-	padding: 20px 0;
+	padding: 0 0 20px;
 }
 
 
@@ -369,17 +366,20 @@ main {
   padding-left: 15px;
 }
 
+.line {
+  border-top: 1px solid #a92cda;
+  margin: 0 30px;
+}
 
 #contact {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-content: flex-start;
-	align-items: flex-star;
+	align-items: flex-start;
 	padding: 0;
-  padding-top: 40px;
-	margin: 40px;
-  border-top: 1px solid #a92cda;
+  margin: 20px 40px;
+
 }
 
 #contact h2 {
@@ -435,7 +435,7 @@ main {
 	align-content: center;
 
 	padding: 0;
-	margin: 40px;
+  margin: 20px 40px;
 }
 
 #references h2 {
@@ -489,7 +489,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  padding: 10px 0;
   background-color: #a92cda;
 }
 
@@ -513,11 +513,274 @@ footer h2 {
   margin: 0;
 }
 
-@media (min-width: 1440px) {
+
+
+
+
+
+@media (min-width: 768px) {
 	main {
 		background-color: black;
 		display: flex;
 		flex-direction: column;
-		margin: 50px 200px;
+		margin: 50px 30px 30px;
 	}
+
+  #about_me {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  
+    padding: 0;
+    margin: 20px 40px;
+  }
+  
+  .name_mobile {
+ display: none;
+  }
+  
+  .photo img {
+    width: 150px;
+    border-radius: 0px;
+  
+    padding: 0;
+  }
+  
+  .name_tablet_desktop {
+    display: block;
+    font-family: "Nunito";
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #a92cda;
+  
+    margin: 0;
+    padding: 0;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  
+  .text p {
+    font-family: "Nunito";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(190, 190, 190);
+  
+    margin: 0;
+    padding: 20px;
+  }
+
+
+  .web {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .web h3 {
+    font-family: "Nunito";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: whitesmoke;
+  
+    margin: 0;
+    padding: 20px 0;
+  }
+  
+  .web_studies_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  
+    margin: 0 30px;
+  }
+  
+  .web_studies_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+  }
+  
+  .web_studies_item img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .web_studies_item p {
+    font-family: "Nunito";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(190, 190, 190);
+    margin: 0;
+    padding: 10px;
+  }
+
+  .line {
+    border-top: 1px solid #a92cda;
+    margin: 0 30px;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 60px 70px 20px;
+  
+  }
+
+  #references {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  
+    padding: 0;
+    margin: 20px 70px 60px;
+  }
+
+  .references_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  .reference {
+    padding: 0;
+  }
+  
+  .reference h3 {
+    font-family: "Nunito";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: whitesmoke;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .reference p {
+    font-family: "Nunito";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(190, 190, 190);
+  
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .reference a {
+    text-decoration: none;
+  }
+  
+
+}
+
+@media (min-width: 1024px) {
+	main {
+		background-color: black;
+		display: flex;
+		flex-direction: column;
+		margin: 50px 150px;
+	}
+
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 60px 190px 20px;
+  
+  }
+
+  #references {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  
+    padding: 0;
+    margin: 20px 190px 60px;
+  }
+
+  .references_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  .reference {
+    padding: 0;
+  }
+  
+  .reference h3 {
+    font-family: "Nunito";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: whitesmoke;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .reference p {
+    font-family: "Nunito";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(190, 190, 190);
+  
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .reference a {
+    text-decoration: none;
+  }
+
 }
