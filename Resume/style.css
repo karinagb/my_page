@@ -458,6 +458,7 @@ main {
 
 .reference {
   padding: 20px;
+	text-decoration: none;
 }
 
 .reference h3 {
