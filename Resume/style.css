@@ -3,6 +3,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
+	transition: all 0.3s ease;
 }
 
 
@@ -51,6 +52,9 @@ header button {
 }
 
 main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	margin: 0 0 40px;
 	padding: 0;
 }
@@ -59,6 +63,7 @@ main {
 	display: flex;
 	flex-direction: column;
   align-items: center;
+	justify-content: center;
 
 	padding: 0;
 	margin: 20px 40px;
@@ -458,7 +463,6 @@ main {
 
 .reference {
   padding: 20px;
-	text-decoration: none;
 }
 
 .reference h3 {
@@ -500,12 +504,21 @@ footer {
   background-color: #a92cda;
 }
 
+footer a {
+	text-decoration: none;
+}
+
 footer button {
+		display: flex;
+		flex-direction:row;
+		align-items: center;
+		justify-content: space-between;
+
     background-color: black;
     border-color: transparent;
     border-radius: 10px;
     
-    padding: 10px;
+    padding: 10px 15px;
     margin: 0;
 }
 
@@ -520,6 +533,16 @@ footer h2 {
   margin: 0;
 }
 
+footer img {
+	width: 15px;
+
+	margin: 0;
+	padding:0;
+	padding-right: 10px;
+
+}
+
+
 
 
 
@@ -530,14 +553,17 @@ footer h2 {
 		background-color: black;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+
 		margin: 50px 30px 30px;
 	}
 
   #about_me {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-  
+    align-items: center;
+		justify-content: center;
+
     padding: 0;
     margin: 20px 40px;
   }
@@ -723,9 +749,17 @@ footer h2 {
 		background-color: black;
 		display: flex;
 		flex-direction: column;
-		margin: 50px 150px;
+		align-items: flex-start;
+		margin: 50px 200px;
 	}
 
+	#about_me {
+		align-self: center;
+	}
+
+	.text p {
+		width: 600px;
+		}
 
   #contact {
     display: flex;
@@ -734,7 +768,7 @@ footer h2 {
     align-content: flex-start;
     align-items: flex-start;
     padding: 0;
-    margin: 60px 190px 20px;
+    margin: 60px 240px 20px;
   
   }
 
@@ -745,7 +779,7 @@ footer h2 {
     align-content: center;
   
     padding: 0;
-    margin: 20px 190px 60px;
+    margin: 20px 240px 60px;
   }
 
   .references_container {
@@ -791,4 +825,20 @@ footer h2 {
     text-decoration: none;
   }
 
+}
+
+@media (min-width: 1440px) {
+	main {
+
+		margin: 50px 400px;
+	}
+
+	#contact {
+    margin: 60px 440px 20px;
+  
+  }
+
+  #references {
+    margin: 20px 440px 60px;
+  }
 }
