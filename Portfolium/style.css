@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   margin:0;
+  transition: all 0.3s ease;
 }
 
 header {
@@ -52,43 +53,152 @@ header button {
 }
 
 
-
 main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 
-
-  margin: 100px 0;
+  margin: 50px;
   padding: 0;
 }
 
-.work_item {
-  padding: 15px;
+.portfolium_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px 50px 50px;
 }
 
-.work_item button {
-	font-family: "Nunito";
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 25px;
-	letter-spacing: 0em;
-	text-align: center;
-	color: whitesmoke;
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
 
-	background-color: #a92cda;
-	border-color: transparent;
-	border-radius: 15px;
+}
+
+a h2:hover {
+  text-decoration: none;
+  color:#d674fd;
+
+}
+
+.portfolium_image{
+  width: 200px;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolium_image:hover {
   
-  padding: 10px;
-  margin:5px;
+  transform: scale(1.2);
+  transform-origin: center;
 }
 
-.work_item button:hover {
-  font-size: 25px;
-	line-height: 30px;
+.calculator_image {
+  width: 130px;
+  border-radius: 10px;
+  border: solid 2px whitesmoke;
+  margin: 0 45px 5px;
 
-  background-color:  #d674fd;
-  padding: 15px;
 }
+
+.calculator_image:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+.portfolium_item h2 {
+  font-family: "Amatic SC";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 0em;
+	color: #a92cda;
+	margin: 0;
+  margin-top: 15px;
+	padding: 10px;
+
+}
+
+.portfolium_item p {
+font-family: "Nunito";
+font-size: 15px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+color: rgb(190, 190, 190);
+margin: 0;
+padding: 0;
+}
+
+
+
+  @media (min-width: 1024px) {
+
+    main {
+      margin: 50px 100px;
+    }
+
+  .portfolium_item {
+    padding: 20px 50px 50px;
+  
+  }
+  
+  .portfolium_image{
+    width: 250px;
+
+  }
+  
+  .calculator_image {
+    width: 150px;
+  }
+  
+
+  .portfolium_item h2 {
+    font-size: 35px;
+    line-height: 40px;
+    padding: 10px;
+  }
+  
+}
+
+@media (min-width: 1440px) {
+  main {
+    margin: 50px 100px;
+  }
+
+  .portfolium_item {
+    padding: 20px 50px 50px;
+  }
+  
+  .portfolium_image{
+    width: 300px;
+  }
+  
+
+  .calculator_image {
+    width: 200px;
+  }
+  
+
+  
+  .portfolium_item h2 {
+    font-size: 40px;
+    line-height: 50px;
+    padding: 10px;
+  }
+  
+  .portfolium_item p {
+  font-size: 20px;
+  }
+}
+
+@media (min-width: 1920px) {
+  main {
+    margin: 50px 200px;
+  }}
