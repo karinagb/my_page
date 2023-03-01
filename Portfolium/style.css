@@ -117,11 +117,12 @@ a h2:hover {
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 40px;
+  text-align: center;
 	letter-spacing: 0em;
 	color: #a92cda;
 	margin: 0;
   margin-top: 15px;
-	padding: 10px;
+	padding: 10px 0;
 
 }
 
@@ -162,7 +163,7 @@ padding: 0;
   .portfolium_item h2 {
     font-size: 35px;
     line-height: 40px;
-    padding: 10px;
+    padding: 10px 0;
   }
   
 }
@@ -190,7 +191,7 @@ padding: 0;
   .portfolium_item h2 {
     font-size: 40px;
     line-height: 50px;
-    padding: 10px;
+    padding: 10px 0;
   }
   
   .portfolium_item p {
