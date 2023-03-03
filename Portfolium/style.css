@@ -2,7 +2,6 @@ body {
   background-color: black;
   display: flex;
   flex-direction: column;
-  margin:0;
   transition: all 0.3s ease;
 }
 
@@ -14,8 +13,6 @@ header {
 
 	border-bottom: 1px solid #a92cda;
 	margin: 0 30px;
-	padding: 0 ;
-
 }
 
 header h1 {
@@ -27,8 +24,6 @@ header h1 {
 	text-align: center;
   color: whitesmoke;
   padding: 30px;
-  margin: 0;
-
 }
 
 header button {
@@ -51,7 +46,6 @@ main {
   justify-content: space-around;
 
   margin:30px;
-  padding: 0;
 }
 
 .portfolium_item {
@@ -79,8 +73,6 @@ a h2:hover {
 .portfolium_image{
   width: 200px;
   border-radius: 10px;
-  padding: 0;
-  margin: 0;
 }
 
 .portfolium_image:hover {
@@ -110,7 +102,6 @@ a h2:hover {
   text-align: center;
 	letter-spacing: 0em;
 	color: #a92cda;
-	margin: 0;
   margin-top: 15px;
 	padding: 10px 0 0;
 
@@ -124,7 +115,6 @@ line-height: 20px;
 letter-spacing: 0em;
 color: whitesmoke;
 
-margin: 0;
 padding: 5px 0;
 
 }
