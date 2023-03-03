@@ -31,25 +31,15 @@ header h1 {
 
 }
 
-header h2 {
-  font-family: "Nunito";
-  font-size: 24px;
-  margin: 0;
-  padding: 0;
-  color:  #a92cda;
-  border: none;
-}
-
-header h2:hover {
-  color:#d674fd;
-}
-
 header button {
-  margin: 0;
-  padding: 0;
-  color:  #a92cda;
-  border: none;
-  background-color: transparent;
+	font-size: 24px;
+	color: #a92cda;
+	border: none;
+	background-color: transparent;
+}
+
+header button:hover {
+  color:#d674fd;
 }
 
 
