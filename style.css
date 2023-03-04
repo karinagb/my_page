@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px auto;
+  margin: 50px auto 0;
 	transition: all 0.3s ease;
 }
 
@@ -66,6 +66,11 @@ button:hover {
 /*tablet-----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media (min-width: 768px) {
+	
+	body {
+		margin: 75px auto 0;
+	}
+	
 	body img {
   width: 400px;
 }}
