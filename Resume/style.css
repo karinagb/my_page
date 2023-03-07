@@ -79,6 +79,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	align-items: center;
 }
 
 .name_tablet_desktop {
@@ -93,7 +94,7 @@ main {
 	letter-spacing: 0em;
 	text-align: center;
 	color: rgb(190, 190, 190);
-	padding: 20px;
+	padding: 15px 15px 0;
 }
 
 #studies {
@@ -545,7 +546,7 @@ footer img {
     text-align: center;
     color: rgb(190, 190, 190);
   
-    padding: 20px;
+    padding: 15px 15px 0;
   }
 
 
@@ -676,7 +677,7 @@ footer img {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		margin: 50px 200px;
+		margin: 50px 150px;
 	}
 
 	#about_me {
@@ -694,7 +695,7 @@ footer img {
     align-content: flex-start;
     align-items: flex-start;
     padding: 0;
-    margin: 60px 240px 20px;
+    margin: 60px 190px 20px;
   
   }
 
@@ -704,7 +705,7 @@ footer img {
     justify-content: center;
     align-content: center;
   
-    margin: 20px 240px 60px;
+    margin: 20px 190px 60px;
   }
 
   .references_container {
@@ -752,15 +753,15 @@ footer img {
 @media (min-width: 1440px) {
 	main {
 
-		margin: 50px 400px;
+		margin: 50px 300px;
 	}
 
 	#contact {
-    margin: 60px 440px 20px;
+    margin: 60px 340px 20px;
   
   }
 
   #references {
-    margin: 20px 440px 60px;
+    margin: 20px 340px 60px;
   }
 }
