@@ -54,7 +54,10 @@ main {
   align-items: center;
   justify-content: flex-end;
   padding: 20px 20px 40px;
+  max-width: 200px;
 }
+
+
 
 a {
   display: flex;
@@ -93,6 +96,18 @@ a h2:hover {
   transform-origin: center;
 }
 
+.two_dev_image {
+  width: 200px;
+  border-radius: 10px;
+  border: solid 2px whitesmoke;
+
+}
+
+.two_dev_image:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
 .portfolium_item h2 {
   font-family: "Amatic SC";
 	font-size: 30px;
@@ -113,7 +128,7 @@ font-weight: 700;
 line-height: 20px;
 letter-spacing: 0em;
 color: whitesmoke;
-
+text-align: center;
 padding: 5px 0;
 
 }
@@ -142,7 +157,7 @@ padding: 5px 0;
 
   .portfolium_item {
     padding: 20px 50px 50px;
-  
+    max-width: 250px;
   }
   
   .portfolium_image{
@@ -154,6 +169,10 @@ padding: 5px 0;
     width: 250px;
   }
   
+  .two_dev_image {
+    width: 250px;
+  }
+
 
   .portfolium_item h2 {
     font-size: 35px;
@@ -170,6 +189,7 @@ padding: 5px 0;
 
   .portfolium_item {
     padding: 20px 50px 50px;
+    max-width: 300px;
   }
   
   .portfolium_image{
@@ -181,6 +201,9 @@ padding: 5px 0;
     width: 300px;
   }
   
+  .two_dev_image {
+    width: 300px;
+  }
 
   
   .portfolium_item h2 {

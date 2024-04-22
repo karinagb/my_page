@@ -229,13 +229,13 @@ main {
 
 }
 
-.assistant {
+.experience_item {
 	display: flex;
 	flex-direction: column;
   padding: 20px;
 }
 
-.assistant h3 {
+.experience_item h3 {
 	font-family: "Nunito";
 	font-size: 20px;
 	font-weight: 700;
@@ -247,35 +247,7 @@ main {
 	padding: 20px 0;
 }
 
-.assistant p {
-	font-family: "Nunito";
-	font-size: 15px;
-	font-weight: 700;
-	line-height: 20px;
-	letter-spacing: 0em;
-	text-align: left;
-	color: rgb(190, 190, 190);
-}
-
-.content {
-	display: flex;
-	flex-direction: column;
-	margin: 20px;
-}
-
-.content h3 {
-	font-family: "Nunito";
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 30px;
-	letter-spacing: 0em;
-	text-align: left;
-	color: whitesmoke;
-
-	padding: 20px 0;
-}
-
-.content p {
+.experience_item p {
 	font-family: "Nunito";
 	font-size: 15px;
 	font-weight: 700;
@@ -753,15 +725,15 @@ footer img {
 @media (min-width: 1440px) {
 	main {
 
-		margin: 50px 300px;
+		margin: 50px 370px;
 	}
 
 	#contact {
-    margin: 60px 340px 20px;
+    margin: 60px 410px 20px;
   
   }
 
   #references {
-    margin: 20px 340px 60px;
+    margin: 20px 410px 60px;
   }
 }
