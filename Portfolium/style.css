@@ -11,32 +11,31 @@ header {
   align-items: center;
   justify-content: space-between;
 
-	border-bottom: 1px solid #a92cda;
-	margin: 0 30px;
+  border-bottom: 1px solid #a92cda;
+  margin: 0 30px;
 }
 
 header h1 {
-  font-family: 'Amatic SC';
+  font-family: "Amatic SC";
   font-size: 50px;
-	font-weight: 700;
-	line-height: 50px;
-	letter-spacing: 0em;
-	text-align: center;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
   color: whitesmoke;
   padding: 30px;
 }
 
 header button {
-	font-size: 24px;
-	color: #a92cda;
-	border: none;
-	background-color: transparent;
+  font-size: 24px;
+  color: #a92cda;
+  border: none;
+  background-color: transparent;
 }
 
 header button:hover {
-  color:#d674fd;
+  color: #d674fd;
 }
-
 
 main {
   display: flex;
@@ -45,7 +44,7 @@ main {
   align-items: flex-start;
   justify-content: space-around;
 
-  margin:30px;
+  margin: 30px;
 }
 
 .portfolium_item {
@@ -57,80 +56,29 @@ main {
   max-width: 200px;
 }
 
-
-
 a {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-decoration: none;
-
 }
 
 a h2:hover {
   text-decoration: none;
-  color:#d674fd;
-
+  color: #d674fd;
 }
 
-.portfolium_image{
-  width: 200px;
-  border-radius: 10px;
-}
-
-.portfolium_image:hover {
-  
-  transform: scale(1.2);
-  transform-origin: center;
-}
-
-.calculator_image {
-  width: 200px;
-  border-radius: 10px;
-  border: solid 2px whitesmoke;
-
-}
-
-.calculator_image:hover {
-  transform: scale(1.2);
-  transform-origin: center;
-}
-
-.two_dev_image {
-  width: 200px;
-  border-radius: 10px;
-  border: solid 2px whitesmoke;
-
-}
-
-.two_dev_image:hover {
-  transform: scale(1.2);
-  transform-origin: center;
-}
 
 .portfolium_item h2 {
   font-family: "Amatic SC";
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 35px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
   text-align: center;
-	letter-spacing: 0em;
-	color: #a92cda;
+  letter-spacing: 0em;
+  color: #a92cda;
   margin-top: 15px;
-	padding: 10px 0 0;
-
-}
-
-.portfolium_item p {
-font-family: "Nunito";
-font-size: 15px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0em;
-color: whitesmoke;
-text-align: center;
-padding: 5px 0;
-
+  padding: 10px 0 0;
 }
 
 .portfolium_item h3 {
@@ -144,42 +92,96 @@ padding: 5px 0;
   padding: 4px;
   border-radius: 5px;
   margin: 10px 0;
+}
 
+.portfolium_item h4 {
+  font-family: "Nunito";
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: whitesmoke;
+  background-color: #8823b0;
+  padding: 4px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.portfolium_item p {
+  font-family: "Nunito";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: whitesmoke;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.portfolium_image {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.portfolium_image:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+.calculator_image {
+  width: 200px;
+  border-radius: 10px;
+  border: solid 2px whitesmoke;
+}
+
+.calculator_image:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+.two_dev_image {
+  width: 200px;
+  border-radius: 10px;
+  border: solid 2px whitesmoke;
+}
+
+.two_dev_image:hover {
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+.two_dev_description {
+  display:flex;
+  flex-direction: row;
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin: 50px 100px;
   }
-
-
-
-  @media (min-width: 1024px) {
-
-    main {
-      margin: 50px 100px;
-    }
 
   .portfolium_item {
     padding: 20px 50px 50px;
     max-width: 250px;
   }
-  
-  .portfolium_image{
-    width: 250px;
 
+  .portfolium_image {
+    width: 250px;
   }
-  
+
   .calculator_image {
     width: 250px;
   }
-  
+
   .two_dev_image {
     width: 250px;
   }
-
 
   .portfolium_item h2 {
     font-size: 35px;
     line-height: 40px;
     padding: 10px 0;
   }
-  
 }
 
 @media (min-width: 1440px) {
@@ -191,38 +193,36 @@ padding: 5px 0;
     padding: 20px 50px 50px;
     max-width: 300px;
   }
-  
-  .portfolium_image{
+
+  .portfolium_image {
     width: 300px;
   }
-  
 
   .calculator_image {
     width: 300px;
   }
-  
+
   .two_dev_image {
     width: 300px;
   }
 
-  
   .portfolium_item h2 {
     font-size: 40px;
     line-height: 50px;
     padding: 10px 0;
   }
-  
+
   .portfolium_item p {
-  font-size: 20px;
+    font-size: 20px;
   }
 
   h3 {
     font-size: 20px;
   }
-
 }
 
 @media (min-width: 1920px) {
   main {
     margin: 50px 200px;
-  }}
+  }
+}
