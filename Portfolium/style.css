@@ -156,8 +156,11 @@ a h2:hover {
 }
 
 .kami_description {
-  display:flex;
+  display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 1024px) {
@@ -223,6 +226,10 @@ a h2:hover {
 
   h3 {
     font-size: 20px;
+  }
+
+  .kami_description {
+    flex-wrap: nowrap;
   }
 }
 
