@@ -91,7 +91,7 @@ a h2:hover {
   background-color: whitesmoke;
   padding: 4px;
   border-radius: 5px;
-  margin: 10px 0;
+  margin: 10px 5px;
 }
 
 .portfolium_item h4 {
@@ -151,6 +151,11 @@ a h2:hover {
 }
 
 .two_dev_description {
+  display:flex;
+  flex-direction: row;
+}
+
+.kami_description {
   display:flex;
   flex-direction: row;
 }
