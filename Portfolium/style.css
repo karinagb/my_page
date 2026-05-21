@@ -150,12 +150,7 @@ a h2:hover {
   transform-origin: center;
 }
 
-.two_dev_description {
-  display:flex;
-  flex-direction: row;
-}
-
-.kami_description {
+.description {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
